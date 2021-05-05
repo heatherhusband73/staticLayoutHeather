@@ -1,0 +1,199 @@
+body {
+    background-color:#fff;
+    font-family: Roboto, sans-seriff;
+    font-size: 14px;
+    color:#434146;
+    line-height: 1.8;
+    margin: 0px;
+    box-sizing: border-box;
+    display:block;
+    min-height:100%;
+}
+   
+.navHeader {
+    top:0px;
+    width:100%;
+    height: 80px;
+    background-color: transparent;
+    z-index: 1000;
+    position:relative;
+    box-sizing:border-box;
+  
+    /*background: #dddddd;*/
+    display:flex;
+
+}
+
+.hero-section {
+    left: auto;
+    min-height: auto;
+    margin-top: -80px;
+    padding-top: 140px;
+    padding-bottom: 110px;
+    border: 0px none transparent;
+    border-radius: 0px;
+    background-color: #331a5c;
+    background-image: url(../images/gradient-violet-bg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+   /* -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;*/
+    width: 100%;
+    position: relative;
+    height:auto;
+   padding-top: 70px;
+    height: auto;
+    max-height: 90vh;
+   /* left:auto;
+    min-height: auto;
+   margin-top: -80px;
+   padding-top: 140px;
+    padding-bottom: 110px;
+    border: 0px none transparent;
+    border-radius: 0px;*/
+ /*   background: transparent;
+  /*  background-image: url(./assetsStaticLayOut/herosectiongradientbackground.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    width: 100%;*/
+    background-clip: border-box;
+}
+.container-for-header{ 
+    background-color:transparent;
+    float: left;
+    width:100%;
+    max-width: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    z-index:2;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+}
+/*.nav-menu-clearfix {
+
+}*/
+
+
+.secondContainer {
+    background-color: transparent;
+    position: relative;
+    display: block;
+    
+    font-size: 14px;
+    color:white;
+    line-height: 1.8;
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: Robotop, sans-serif;
+}
+
+.middleBlock {
+    max-width: 860px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+    .laptopImage {
+        width:100%;
+        max-width: 500px;
+        margin-bottom: 30px;
+        max-height: 340px;
+        display: inline-block;
+        vertical-align: middle;
+       /* box-sizing: border-box;*/
+
+    }
+
+    .sectionDescription {
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+        line-height: 38px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-family: Roboto, sans-seriff;
+    }
+    
+    
+
+
+.sectionDescription-Paragraph {
+    text-align: center;
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    float: none;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+    display: block;
+}
+
+.button {
+    color:white;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #fe9000;
+    clear: both;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgba(254, 144, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    float:none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 16px;
+    text-indent: 1.5px;
+    letter-spacing: 2px;
+
+}
+.section-FeaturedIn {
+    display: block;
+    background: white;
+    position: relative;
+    padding: 60px, 20px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.containerFeature {
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.containerFeature::before {
+    content: " ";
+    display:table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.grid-feature {
+    margin-right: 20px;
+    margin-left: 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    margin-bottom: 75px;
+    align-items: center;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+}
